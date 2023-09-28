@@ -1,0 +1,11 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,800.0,Invalid Data Type in,Some fields have rulesets (see spec) such as numerical,Not Reprocessed
+Distributor,,Record,"characters only, or a character limit.  The record needs",
+,,,resending with ruleset compliance.,
+Full,800.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,800.0,Invalid Product Type,Product Type not recognised (must be 'I' for Inventory or,Not Reprocessed
+Distributor,,,"'N' for Non-Inventory), if left blank, system will default to",
+,,,'I'/ Inventory.  Resend record with correct Product Type.,

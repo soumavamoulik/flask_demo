@@ -1,0 +1,6 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,700.0,Invalid Character in Code,Illegal character contained in Warehouse Code.  Resend,Not Reprocessed
+Distributor,,,record with correct Character Code. Field rules: Alpha-,
+,,,Numeric characters only + Special characters # _ - / and .,
+,,,Only.,

@@ -1,0 +1,27 @@
+Full,510,PO No Does Not Exist,Portal related. PO Number not recognised against the,Reprocessed Daily - For
+Distributor,,Against The Customer,Customer stated in the Invoice.  Resend record with,30 Days
+,,,correct PO Number -OR-  Create the PO in the Portal and,
+,,,then send 505 Confirmation Record.,
+Full,510.0,Invoice Record For DFF,Customer associated with this transaction has been,Reprocessed - AdHoc
+Distributor,,Customer,flagged as DFF customer. The TurfView system blocks the,
+,,,processing of 510 transaction records for DFF customers.,
+,,,Contact the distributor to establish if this has been sent in,
+,,,"error. If this has been sent by mistake, delete this record/",
+,,,error via the error maintenence screen. -OR- If the record,
+,,,is recording a genuine sale to an end distributor customer,
+,,,"(this is not a DFF customer), then the restriction can be",
+,,,lifted at the customer shipping level.,
+Full,510.0,Month Has Already Been,Transaction is dated within a month that has already,Reprocessed - AdHoc
+Distributor,,Closed,been locked by BP Cluster  Send data within the valid time,
+,,,"range, if data has been sent to fix historical inaccuracy,",
+,,,restriction can be lifted under special circumstances if the,
+,,,change is warranted.,
+Full,510.0,Net Turnover Cannot Be,Only applicable if Distributor has been defined as sending,Reprocessed - AdHoc
+Distributor,,Null,Net Turnover in the Extract File (set from within the,
+,,,"Cluster, Distributor Master by BP admin)  Resend invoice",
+,,,"with correct Net Amount, or amend distributor master.",
+Full,510.0,This single record,"Verify with the distributor what amount was actually sold,",Reprocessed - AdHoc
+Distributor,,exceeds,request the record to be resent with the correct quantity,
+,,<<THRSHLD_VALUE>>L,"and/ or UOM code. If the quantity is correct, then raise a",
+,,,request to Nihilent to have the restriction temporally,
+,,,lifted,

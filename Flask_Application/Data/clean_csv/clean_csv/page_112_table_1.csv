@@ -1,0 +1,26 @@
+Full,510,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,510.0,Customer Is Different In,"This invoice number is already in system, but against a",Not Reprocessed
+Distributor,,Already Existing Invoice,different customer.  Resend the invoice with error,
+,,No.,corrected (invoice number amended).,
+Full,510.0,Delivery Date Cannot Be,Delivery Note Date is a mandatory field if the invoice,Not Reprocessed
+Distributor,,NULL,relates to a Ford customer.  Resend Invoice line with,
+,,,"Delivery Date.  If this cannot be added, use invoice date",
+,,,as back-up option.,
+Full,510.0,Discount Must Be 0 For,Scheme code is used for FOC product only (therefore zero,Not Reprocessed
+Distributor,,Scheme,"turnover), there is no way to deduct discount off of zero,",
+,,,therefore either resend the record without the scheme,
+,,,"code (with discount populated, and turnover greater than",
+,,,zero) if discounted -OR- send the record with zero,
+,,,turnover and scheme code populated and leave discount,
+,,,column blank if FOC.,
+Full,510.0,Duplicate Invoice,Duplicate Invoice Number Exists Against The Order...,Not Reprocessed
+Distributor,,Number Exists Against,Resend record with correct data.,
+,,The Order.,,
+Full,510.0,Duplicate Line No In,Two or more records within same Customer Invoice No,Not Reprocessed
+Distributor,,Same Invoice.,are using the same invoice line number.  Resend Total,
+,,,invoice with duplicate line error corrected.,
+Full,510.0,Employee Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,

@@ -1,0 +1,29 @@
+Lite,510,Volume Sold Positive,Discount value and Volume must both be positive or negative,Not Reprocessed
+Distributor,,But Discount Negative,Resend record with Volume sold negative or Discount positive,
+Lite,510.0,Invalid Customer Code,Customer Code is blank/erroneous or because the Distributor,Reprocessed Daily - For 30
+Distributor,,,has not sent the related Customer 300 record.  Send related,Days
+,,,"300 Customer Record for this Customer -OR- If erroneous,",
+,,,resend record with correct Customer Code.,
+Lite,510.0,Invalid Employee,Employee Code was blank/erroneous or because the,Reprocessed Daily - For 30
+Distributor,,,Distributor has not sent the related Employee Data (200,Days
+,,,record).  Send Employee Data (Record 200) -OR- Resend,
+,,,record with correct Employee Code.,
+Lite,510.0,Invalid Non-Inventory,Non Inventory Product code not recognised. It is either a valid,Reprocessed Daily - For 30
+Distributor,,Product,"BP code that has not been loaded into the Cluster, or it is an",Days
+,,,erroneous non-inventory product code sent by the Distributor,
+,,,Enter Non-Inventory Product Code in the Cluster ORResend,
+,,,record with correct  Non-Inventory Product Code,
+Lite,510.0,Invalid Product,The product code was not recognised. If the code sent is,Reprocessed Daily - For 30
+Distributor,,,"invalid, resend this record with a corrected code.  If the code",Days
+,,,"was a Valid BP/ Castrol code, the BP admin needs to manually",
+,,,add it to the product reference file (product master).,
+Lite,510.0,Invalid Scheme,"Scheme Code must match one created in the Cluster, either",Reprocessed Daily - For 30
+Distributor,,,"the scheme code sent doesnt match what we have set up, -",Days
+,,,OR- Scheme has been incorrectly set up.  Resend record with,
+,,,correct Scheme -OR- BP admin needs to address scheme set,
+,,,up.,
+Lite,510.0,Invalid Warehouse,"Warehouse Code is not recognised, either because it is",Reprocessed Daily - For 30
+Distributor,,,blank/erroneous or because the Distributor has not sent the,Days
+,,,related Warehouse 700 record.  Send related 700 Warehouse,
+,,,Record for this Warehouse if the code is valid -OR-  If,
+,,,"erroneous, resend record with correct Warehouse Code.",

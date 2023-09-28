@@ -1,0 +1,4 @@
+L,Volume Reported divided by Pack Net Volume (Ltr)
+G,(Volume Reported multiply Gallon Factor) divided by Pack Net Volume (Ltr)
+K,(Volume Reported divided by Density) divided by Pack Net Volume (Ltr)
+D,((Volume Reported multiply Pound Factor) / divided by Density) / divided by Pack Net Volume (Ltr)

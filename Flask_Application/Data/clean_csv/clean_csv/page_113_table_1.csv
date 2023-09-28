@@ -1,0 +1,28 @@
+Full,510,Gross Amount Negative,Gross Turnover cannot be negative if Net Turnover is,Not Reprocessed
+Distributor,,But Net Amount Positive,positive.  Resend invoice with correct Gross and Net,
+,,,Amounts.,
+Full,510.0,Gross Turnover Must Be,"Schemes only cover FOC promotions, so Gross Turnover",Not Reprocessed
+Distributor,,0 For Scheme,must be 0 for the products with the scheme code,
+,,,appended.  Resend record with error corrected.,
+Full,510.0,If Gross Turnover is 0 the,"Net Turnover is derived from Gross Turnover, therefore",Not Reprocessed
+Distributor,,Net Turnover must also,both must be zero if Gross is zero.  Resend this invoice,
+,,be 0,record with corrected Gross and Net Turnover Amounts.,
+Full,510.0,"If the volume is positive,","If volume is zero, then CoGs must also be zero, resend the",Not Reprocessed
+Distributor,,then turnover must be,record with the correction.,
+,,zero or greater than,,
+,,zero. (Not negative). The,,
+,,record must be resent,,
+,,with this correction.,,
+Full,510.0,Invalid Data Type in,Some fields have rulesets (see spec) such as numerical,Not Reprocessed
+Distributor,,Record,"characters only, or a character limit.  The record needs",
+,,,resending with ruleset compliance.,
+Full,510.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,510.0,Invalid Product Type,Product Type not recognised (must be a code 'I' for,Not Reprocessed
+Distributor,,,"Inventory or 'N' for Non-Inventory). If left blank, system",
+,,,will default the record to Inventory/ 'I'.  Resend record,
+,,,with correct Product Type.,
+Full,510.0,Invalid Related Unique,Related to Ford Customer Credits:  Unique Key is,Not Reprocessed
+Distributor,,Key. Credit Note or,"combination of: Distributor Code, Customer Code, Ship To",
+,,Replacement Invoice,"Serial No, Invoice Number, Invoice Date and Invoice Line",

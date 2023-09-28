@@ -1,0 +1,22 @@
+Full,100,Geography Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,100.0,Invalid Character in Code,Only alpha/ numerical characters or the following special,Not Reprocessed
+Distributor,,,characters are permitted (# _ - / and .); resend the record,
+,,,without this/ substituted in the sales area code field.,
+Full,100.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,100.0,Invalid Sales Area Code,"Sales area code came over blank, resend the record with a",Not Reprocessed
+Distributor,,,code.,
+Full,100.0,Sales Area Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,100.0,Invalid Geography,The code field received did not match anything we have on,Reprocessed Daily - For
+Distributor,,,file and is likely not valid.  Please check the contents sent if,30 Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,
+Full,100.0,Record Type 100 Not,100 records must be configured for the distributor by the,Reprocessed Daily - For
+Distributor,,Permitted For This,BP cluster admin before 100 records will be accepted.  BP,30 Days
+,,Cluster,admin to configure to resolve and record(s) need to be,
+,,,resent.,

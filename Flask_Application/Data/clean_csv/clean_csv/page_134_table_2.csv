@@ -1,0 +1,11 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Lite,505.0,Confirmation Does Not,The number of lines in the order must match the number,Not Reprocessed
+Distributor,,Match With The Order,of lines being reported in the confirmation  Resend total PO,
+,,,data with error corrected.,
+Lite,505.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Lite,505.0,Not A Portal Customer,Customer Code used does not relate to a Portal Customer,Not Reprocessed
+Distributor,,,received via a 310 record  Resend record with correct,
+,,,Customer Code.,

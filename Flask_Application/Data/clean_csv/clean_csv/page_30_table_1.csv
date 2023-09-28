@@ -1,0 +1,21 @@
+FIELD NAME,DEFINITIONS
+Search Product -,This field is a lookup field that looks in the Product Master that is transferred in the system by the AWS Team from Castrols
+,ERP system (Data Lake).
+,This field is used to look up in Fusion or Global SKU or ISP Mnemonic to clone a product
+Code -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the Product Code"
+Name -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the Product Name"
+Origin Date -,Date of creation of the product
+Expiry Date -,Date of the expiry of the product
+Master Brand -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the hierarchy of the Product"
+,starting Master Brand
+,"This is at the top of the product hierarchy, it relates to the overall brand the product sits within. For example, Edge sits within"
+,'Castrol' as a master brand. Visco sits within 'BP' as a master brand. Supertronic is within 'Aral' as a master brand.
+Product Brand -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the hierarchy of the Product"
+,starting Product Brand
+,This is a level within the product hierarchy. It is one of the more commonly used segments within the hierarchy as it reflects
+,"the marketing brand names used within our products. For example the lead brands in auto for Castrol is Edge, Magnatec and"
+,"GTX. Industrial examples such as Hysol, Hyspin."
+Product Brand Variant -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the hierarchy of the Product"
+,starting Product Brand Variant
+Product Type -,"Once the Fusion or Global SKU or ISP Mnemonic is selected, it will automatically populate the hierarchy of the Product"
+,starting Product Type

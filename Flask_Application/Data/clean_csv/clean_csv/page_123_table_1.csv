@@ -1,0 +1,8 @@
+Full,700,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,700.0,Warehouse Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,700.0,Warehouse Description,Warehouse Description field is mandatory and must be,Not Reprocessed
+Distributor,,Is Null,populated.  Resend record with corrected description.,

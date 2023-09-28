@@ -1,0 +1,26 @@
+Full,800,Negative Stock is Not,Negative Stock volume is not allowed (depending on a,Not Reprocessed
+Distributor,,Allowed,cluster level flag).  Resend record with corrected stock,
+,,,volume data.,
+Full,800.0,Null or Invalid Date,"Date is in invalid format, should be -day, month, year",Not Reprocessed
+Distributor,,,sequence... Date separators can be either '.'  '-' or '/',
+,,,format. .  Resend record with valid date.,
+Full,800.0,Null or Invalid Volume,"Volume identifier is not recognised (must be 'B'=Base,",Not Reprocessed
+Distributor,,Identifier,"'P'=Pack/bottle, 'C'= Case/boxes, or 'L'= Litres).  Resend",
+,,,record with correct Volume Identifier.,
+Full,800.0,Null Stock Value,Stock Value cannot be blank.  Resend record with correct,Not Reprocessed
+Distributor,,,Stock Value (value= should be the total cost price of,
+,,,products to the distributor based on the current volume,
+,,,held).,
+Full,800.0,Null Stock Volume,Stock Volume cannot be blank.  Resend record with correct,Not Reprocessed
+Distributor,,,Stock Volume.,
+Full,800.0,Product Code is Null,Product code field was not populated  Resend invoice,Not Reprocessed
+Distributor,,,record with populated BP product code,
+Full,800.0,Stock Value is positive,The value of stock cannot be positive if negative stock,Not Reprocessed
+Distributor,,but Stock Volume is,volume is reported.  Resend record with Stock Volume,
+,,Negative,Positive or Stock Value Negative.,
+Full,800.0,Stock Volume is positive,The value of stock cannot be negative if positive stock,Not Reprocessed
+Distributor,,but Stock Value is,volume is reported. Resend record with Stock Volume,
+,,Negative,Negative or Stock Value Positive.,
+Full,800.0,Volume Identifier Must,A UOM/Vol ID code of 'P'= Pack must be used for non-,Not Reprocessed
+Distributor,,Be P For Non-Inventory,inventory products.  Resend record with correct Volume,
+,,Product,Identifier.,

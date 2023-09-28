@@ -1,0 +1,15 @@
+Fields,Input Type,Nullable,Remarks,Validations
+Distributor Code,NVARCHAR2 (25),N,Unique Distributor Code as provided by your BP Cluster,Code field rules in General Principles
+,,,Admin,
+Customer Code,NVARCHAR2 (30),N,Customer Code Assigned in Distributor ERP.,Code field rules in General Principles. An
+,,,,associated 300 record must exist with the relevant
+,,,,Customer Code.
+Ship To Address,NUMBER(10),N,Serial No. of the shipping address if there are multiple,Preceding 0 are ignored (001 would be read as 1).
+Serial No.,,,"addresses, otherwise 1. See corresponding 300 and 400",Must be 10 digit max and follow number field
+,,,Record notes above.,convention rules in General Principles.
+Distributor Sales,NVARCHAR2 (30),N,Defines the geographical location of the customer,Valid Sales Area Code or Geography Level 3 Code
+Area Code (if used),,,shipping location,
+or otherwise,,,,
+Geography Level 3,,,,
+Code,,,,
+Blank Field,n/a,Y,Field must be represented with a || and left null,

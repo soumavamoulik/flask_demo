@@ -1,0 +1,15 @@
+Fields,Input Type,Nullable,Remarks,Validations
+Distributor,NVARCHAR2,N,Unique Distributor Code as provided by your BP Cluster Admin,Code field rules in General Principles
+Code,(25),,,
+Customer,NVARCHAR2,N,Customer Code assigned in the Distributor ERP,Code field rules in General Principles
+Code,(30),,,
+Customer,NVARCHAR2,N,N ame of the Customer,"Note: In accordance with Data Protection laws,"
+Name,(100),,,personal information related to individuals (i.e.
+,,,,"business to consumer sales, rather than business"
+,,,,to business sales) should not be sent to TurfView.
+,,,,"Where the customer is an individual, the"
+,,,,Distributor should use a generic name to define
+,,,,"this customer. Examples could be ""CONSUMER"","
+,,,,"""B2C SALE"", or ""OTC"". The Customer Name field is"
+,,,,mandatory so the field cannot be left null.
+Sub Sector,NVARCHAR2,Y,Sub Sector Detail references / codes are defined within the BP,See Customer Segmentation section.

@@ -1,0 +1,28 @@
+Full,510,Volume Sold Positive but,"If volume is positive, then CoGs must also be positive.",Not Reprocessed
+Distributor,,COGS Negative,Resend the record with matching +/- CoGs + volume,
+,,,values.,
+Full,510.0,Volume Sold Positive But,Discount value and Volume must both be positive or,Not Reprocessed
+Distributor,,Discount Negative,negative  Resend record with Volume sold negative or,
+,,,Discount positive,
+Full,510.0,Warehouse Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,510.0,Invalid Customer Code,The code field received did not match anything we have,Reprocessed Daily - For
+Distributor,,,on file and is likely not valid.  Please check the contents,30 Days
+,,,"sent if this is not valid.  If it is valid, then the data will",
+,,,need to be updated by the local BP admin.,
+Full,510.0,Invalid Employee,The code field received did not match anything we have,Reprocessed Daily - For
+Distributor,,,on file and is likely not valid.  Please check the contents,30 Days
+,,,"sent if this is not valid.  If it is valid, then the data will",
+,,,need to be updated by the local BP admin.,
+Full,510.0,Invalid Non-Inventory,Non Inventory Product code not recognised. It is either a,Reprocessed Daily - For
+Distributor,,Product,"valid BP code that has not been loaded into the Cluster,",30 Days
+,,,or it is an erroneous non-inventory product code sent by,
+,,,the Distributor  Enter Non-Inventory Product Code in the,
+,,,Cluster ORResend record with correct  Non-Inventory,
+,,,Product Code,
+Full,510.0,Invalid Product,The product code was not recognised. If the code sent is,Reprocessed Daily - For
+Distributor,,,"invalid, resend this record with a corrected code.  If the",30 Days
+,,,"code was a Valid BP/ Castrol code, the BP admin needs to",
+,,,manually add it to the product reference file (product,
+,,,master).,

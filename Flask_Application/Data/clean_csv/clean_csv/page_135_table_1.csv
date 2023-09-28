@@ -1,0 +1,27 @@
+Lite,505,Null or Invalid Date,Delivery Date cannot be blank  Resend record with valid,Not Reprocessed
+Distributor,,,"Delivery date. Date is in invalid format, should be -day,",
+,,,"month, year sequence... Date separators can be either '.'  '-'",
+,,,or '/' format. .  Resend record with valid date.,
+Lite,505.0,Null or Invalid Volume,"Volume identifier is blank or not recognised (must be B, P,",Not Reprocessed
+Distributor,,Identifier,"C, L, G, K or D). Resend record with correct Volume",
+,,,Identifier.,
+Lite,505.0,PO is Already Confirmed,PO Confirmation (505 record) has already been received for,Not Reprocessed
+Distributor,,,this Order  (No action - notification only).,
+Lite,505.0,PO Is Already Invoiced,PO Confirmation (505 record) is not applicable as the PO is,Not Reprocessed
+Distributor,,,already invoiced  (No action - notification only).,
+Lite,505.0,PO No Cannot Be Null if,Customer PO No cannot be blank  Resend record with,Not Reprocessed
+Distributor,,it is an OEM Product sold,correct PO No.,
+,,to an OEM Customer,,
+Lite,505.0,Product Code is Null,Product code field was not populated  Resend invoice,Not Reprocessed
+Distributor,,,record with populated BP product code,
+Lite,505.0,Product Does Not Exist In,Order confirmation contains Products that are not in the,Not Reprocessed
+Distributor,,PO,related PO contents.  Resend record with correct Product,
+,,,Code(s).,
+Lite,505.0,Quantity confirmed,Product quantity confirmed cannot be greater than the,Not Reprocessed
+Distributor,,cannot be greater than,quantity ordered.  Resend record with correct quantity,
+,,the Quantity ordered,confirmed,
+Lite,505.0,Quantity Confirmed,Quantity Confirmed must be a positive value  Resend,Not Reprocessed
+Distributor,,Cannot Be Negative or,record with correct Quantity.,
+,,Null,,
+Lite,505.0,Quantity Should Be In,Quantity Confirmed must be a multiple of Case Factor,Not Reprocessed
+Distributor,,Multiple Of Case,Resend record with correct quantity confirmed.,

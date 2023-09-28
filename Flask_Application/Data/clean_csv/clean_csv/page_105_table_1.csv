@@ -1,0 +1,20 @@
+Full,310,Child Classification Code,"The child attribute code provided is valid, but doesnt",Not Reprocessed
+Distributor,,Is Not Under This Parent,match to the parent code provided.  Resend the file with,
+,,,correctly assigned parent and/or child attribute codes,
+,,,included.,
+Full,310.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,310.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,310.0,Invalid Customer Code,The code field received did not match anything we have on,Reprocessed Daily - For
+Distributor,,,file and is likely not valid.  Please check the contents sent if,30 Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,
+Full,310.0,Invalid Additional Child,The child attribute code in column 3 doesnt match what,Reprocessed - AdHoc
+Distributor,,Classification,has been set up in the master data in TurfView.  Either set,
+,,,"up the code, or resend this record with a correct code.",
+Full,310.0,Invalid Additional Parent,The parent attribute code in column 4 doesnt match what,Reprocessed - AdHoc
+Distributor,,Classification,has been set up in the master data in TurfView.  Either set,
+,,,"up the code, or resend this record with a correct code.",

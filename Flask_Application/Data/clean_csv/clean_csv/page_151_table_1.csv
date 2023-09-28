@@ -1,0 +1,22 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Lite,910.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Lite,910.0,Numeric field contains,Some fields have rulesets (see spec) such as numerical,Not Reprocessed
+Distributor,,illegal characters or,"characters only, or a character limit.  The record needs",
+,,exceeds the field length,resending with ruleset compliance.,
+,,specified,,
+Lite,910.0,Product Code is Null,Product code field was not populated.  Resend record with,Not Reprocessed
+Distributor,,,populated BP product code.,
+Lite,910.0,Invalid Product,Product code not recognised. It is either a valid BP code,Reprocessed Daily - For
+Distributor,,,"that has not been loaded into the Cluster, or it is a non",30 Days
+,,,valid product code sent by the Distributor.  Resend invoice,
+,,,with corrected Product code -OR- BP Cluster Admin to,
+,,,enter Product Code in the Cluster Product master.,
+Lite,910.0,Invalid Warehouse,"Warehouse Code is not recognised, either because it is",Reprocessed Daily - For
+Distributor,,,blank/erroneous or because the Distributor has not sent,30 Days
+,,,the related Warehouse 700 record.  Send related 700,
+,,,Warehouse Record for this Warehouse if the code is valid -,
+,,,"OR-  If erroneous, resend record with correct Warehouse",
+,,,Code.,

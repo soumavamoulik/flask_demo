@@ -1,0 +1,7 @@
+Fields,Input Type,Nullable,Remarks,Validations
+Distributor,NVARCHAR2 (25),N,Unique Distributor Code as provided by your,
+Code,,,BP Cluster Admin,
+Warehouse,NVARCHAR2 (30),N,Code of Distributors Warehouse as assigned in,Code field rules in General Principles.
+Code,,,Distributor ERP,
+Warehouse,NVARCHAR2 (100),N,Warehouse Description,
+Description,,,,

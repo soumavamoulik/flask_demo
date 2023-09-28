@@ -1,0 +1,15 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,"sent if this is not valid.  If it is valid, then the data will",Unnamed: 3
+,,,need to be updated by the local BP admin.,
+Full,520.0,Invalid Product,The code field received did not match anything we have,Reprocessed Daily - For 30
+Distributor,,,on file and is likely not valid.  Please check the contents,Days
+,,,"sent if this is not valid.  If it is valid, then the data will",
+,,,need to be updated by the local BP admin.,
+Full,520.0,Invalid Warehouse,The code field received did not match anything we have,Reprocessed Daily - For 30
+Distributor,,,on file and is likely not valid.  Please check the contents,Days
+,,,"sent if this is not valid.  If it is valid, then the data will",
+,,,need to be updated by the local BP admin.,
+Full,520.0,Month Has Already,Transaction is dated within a month that has already,Reprocessed - AdHoc
+Distributor,,Been Closed,been locked by BP (month-end restriction window).  Send,
+,,,data within the valid month range -OR- IF the data is,
+,,,outside of the permitted period and is a warranted,
+,,,"correction, speak to your BP administrator.",

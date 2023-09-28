@@ -1,0 +1,7 @@
+TurfView Product Master,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Distributor transaction,Unnamed: 4,Unnamed: 5
+BP Description,Base UoM,Pack Factor,Pack Net,Case Factor,Example transaction,Volume,Volume
+Product,,,Volume (Ltr),,,field,Identifier
+Code,,,,,,,
+15581D Magnatec 5W-,Litre,1,1,12,Sale of 3 x 1ltr bottles,3,P or B or L
+30 A5 12X1 LT,,,,,,,
+,,,,,,0.25,C

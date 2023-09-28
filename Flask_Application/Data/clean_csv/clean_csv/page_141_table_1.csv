@@ -1,0 +1,27 @@
+Lite,510,The Order is already,Invoice contains PO No that has already been fully invoiced.,Not Reprocessed
+Distributor,,Invoiced,No action - notification only.,
+Lite,510.0,Turnover Cannot Be,Gross Turnover is a mandatory field.  Resend record with,Not Reprocessed
+Distributor,,Null,correct Gross Turnover field populated.,
+Lite,510.0,Volume Identifier,A UOM code of 'P' must be used for non-inventory product,Not Reprocessed
+Distributor,,Must Be P For Non-,Resend record with a corrected volume identifier,
+,,Inventory Product,,
+Lite,510.0,Volume Sold and,"If volume + turnover are zero, then the invoice record makes",Not Reprocessed
+Distributor,,Amount Sold Cannot,no sense.  Resend with +/- volume and potentially turnover.,
+,,Both Be Zero In Same,,
+,,Line,,
+Lite,510.0,Volume Sold Cannot,Volume sold cannot be blank  Resend record with correct the,Not Reprocessed
+Distributor,,Be Null,quantity sold populated.,
+Lite,510.0,Volume Sold Negative,Turnover cannot be positive if there is negative volume in,Not Reprocessed
+Distributor,,but Amount Sold,Invoice  Resend record with Volume Sold positive or turnover,
+,,Positive,negative as well.,
+Lite,510.0,Volume Sold Negative,COGS cannot be positive if there is negative volume in Invoice,Not Reprocessed
+Distributor,,but COGS Positive,Resend record with Volume Sold positive  or COGS negative.,
+,,,CoGs should be reflective of volume sold (positive Vol =,
+,,,"Positive CoGS and visa versa, zero GoGS = zero vol).",
+Lite,510.0,Volume Sold Negative,Discount value and Volume must both be positive or negative.,Not Reprocessed
+Distributor,,But Discount Positive,Resend record with Volume sold positive or Discount negative.,
+Lite,510.0,Volume Sold Positive,"If the volume is positive, then turnover must be zero or",Not Reprocessed
+Distributor,,but Amount Sold,greater than zero. (Not negative). The record must be resent,
+,,Negative,with this correction.,
+Lite,510.0,Volume Sold Positive,"If volume is positive, then CoGs must also be positive. Resend",Not Reprocessed
+Distributor,,but COGS Negative,the record with matching +/- CoGs + volume values.,

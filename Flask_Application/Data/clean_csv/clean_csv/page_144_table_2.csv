@@ -1,0 +1,11 @@
+Distributor Type,Record Type Error Message,Unnamed: 0,Remediation Action,Error Processing
+,,,,Status
+Lite 515,Invalid Distributor,,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Lite 515,Not A Portal Customer,,Customer code is not recognised as a Portal Customer.,Not Reprocessed
+Distributor,,,Resend record with correct Customer.,
+Lite 515,Null or Invalid Date,,"Invoice date cannot be blank.Date is in invalid format,",Not Reprocessed
+Distributor,,,"should be -day, month, year sequence... Date separators",
+,,,can be either '.'  '-' or '/' format. .  Resend record with valid,
+,,,date.,

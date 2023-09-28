@@ -1,0 +1,32 @@
+PO SUGGESTIONS  IBERIA,07:00 (Alternate Tuesday)
+TLS  Malaysia,06:00
+TLS  Vietnam,07:00
+TLS  Philippines,07:15 (Due to Competition Law enablement in this
+,"Market, this has been currently discontinued)"
+TLS  Thailand,05:00
+TLS - Indonesia,06:30
+CRM,01:30
+IMI,07:30
+VRP  EXPORT (MONTHLY),11:15 (Every 14th Day of Month)
+VRP  EXPORT (QUARTERLY),08:45 (Every 11th Day of Month)
+VRP  EXPORT (YEARLY),09:00 (Every 11th Day of Month)
+VRP  EXPORT (HALF-YEARLY),09:15 (Every 11th Day of Month)
+VRP  IWS,08:30
+PRICING  EUROPE,08:00 (Every 12th Day of the Month)
+PRICING  USA,08:30 (Every 12th Day of Month)
+FASTSCAN  EXPORT,16:30
+FASTSCAN  EXPORT (EUROPE),16:45
+FASTSCAN - TESA,17:30
+JBP  PMT,
+JBP - REBATE,
+JBP OUTGOING INTERFACE,09:33
+CIL (INDIA),12:30 (Monday)
+SELL  IN MONHLY,12:00 (Daily)
+SELL  IN DAILY,12:00 (Daily)
+SELL- IN ARGENTINA,12:00 (Daily)
+DFF,06:15
+CASTROL SALES,04:30
+EXCHANGE RATE,09:30 (4th Day of Every Month)
+VMI  SALES,14:20
+VMI  STOCK,"14:22 (Tuesday, Wednesday)"
+VMI  OPEN PO,14:24 (11th Day of Every Month)

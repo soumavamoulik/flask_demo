@@ -1,0 +1,15 @@
+"TurfView BI  Master Guide V7.0DistributorRecord TypeError MessageRemediation ActionError Processing StatusTypeLite315Customer AdditionalResend record with the classification name populated.Not ReprocessedDistributorParent ClassificationName is NullLite315Invalid DistributorThe distributor code doesnt match the code we hold inNot ReprocessedDistributorTurfView.  The record needs to be resent with a correctedcode.10.6.6 CUSTOMER EMAILDistributorRecord TypeError MessageRemediation ActionError Processing StatusTypeLite320Customer Email cannotResend record with correct/ populated Email ID.Not ReprocessedDistributorbe left blankLite320Invalid DistributorThe distributor code doesnt match the code we hold inNot ReprocessedDistributorTurfView.  The record needs to be resent with a correctedcode.Lite320Multiple Unique CodeSame customer has been sent with different Unique IDs,Not ReprocessedDistributorAttached With Sameresend record with corrected Unique CodeCustomer132",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10
+,Distributo,,Record Type,Record Type,Error Message,Error Message,Remediation Action,Remediation Action,Error Processing Status,Error Processing Status,
+,Type,,,,,,,,,,
+"LiteDistributor",Lite,315,315,,Customer Additional,,Resend record with the classification name populated.,Resend record with the classification name populated.,Not Reprocessed,Not Reprocessed,
+,Distributo,Parent Classification,,,,,,,,,
+,,,,,Name is Null,,,,,,
+"LiteDistributor",315,Invalid Distributor,"The distributor code doesnt match the code we hold inTurfView.  The record needs to be resent with a correctedcode.",Not Reprocessed,,,,,,,
+,Distributo,,Record Type,Record Type,Error Message,Error Message,Remediation Action,Remediation Action,Error Processing Status,Error Processing Status,
+,Type,,,,,,,,,,
+,Lite,,320,320,,Customer Email cannot,,Resend record with correct/ populated Email ID.,Resend record with correct/ populated Email ID.,Not Reprocessed,Not Reprocessed
+Distributo,be left blank,,,,,,,,,,
+"LiteDistributor",320,Invalid Distributor,"The distributor code doesnt match the code we hold inTurfView.  The record needs to be resent with a correctedcode.",Not Reprocessed,,,,,,,
+"LiteDistributor",Lite,320,320,,Multiple Unique Code,,"Same customer has been sent with different Unique IDs,resend record with corrected Unique Code","Same customer has been sent with different Unique IDs,",Not Reprocessed,Not Reprocessed,
+Distributo,Attached With Same,resend record with corrected Unique Code,,,,,,,,,
+Customer,,,,,,,,,,,

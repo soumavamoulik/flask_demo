@@ -1,0 +1,28 @@
+Unnamed: 0,Unnamed: 1,(POL) Cannot Be Tied to,No... Ensure these match from the credit to the original,Unnamed: 2
+,,Original Invoice,"invoice, then resend a corrected credit 510 to address this",
+,,,error.,
+Full,510.0,Invoice Has Same,A unique invoice number (in Column 7) can only have,Not Reprocessed
+Distributor,,Product in Multiple Lines,multiple record lines for same product sales if Column 16,
+,,but without Line Number,(Line No) is being used to differentiate the lines.  Resend,
+,,,Total invoice with error corrected.,
+Full,510.0,Line No cannot Be Null,Invoice Line Number is a mandatory field if the invoice,Not Reprocessed
+Distributor,,or Negative,relates to a Ford customer. (This is Line No for the Invoice,
+,,,and not the Ref Invoice. Credit Ref is only required for,
+,,,credits) Resend Invoice line with Line Number.,
+Full,510.0,Net Turnover Negative,Both Turnover values must be either positive or negative,Not Reprocessed
+Distributor,,But Gross Turnover,Resend invoice with correct Gross and Net Amounts.,
+,,Positive,,
+Full,510.0,Null Invoice No.,Invoice No cannot be blank  Resend record with Invoice,Not Reprocessed
+Distributor,,,No,
+Full,510.0,Null or Invalid Date,"Invoice date cannot be blank.Date is in invalid format,",Not Reprocessed
+Distributor,,,"should be -day, month, year sequence... Date separators",
+,,,can be either '.'  '-' or '/' format. .  Resend record with,
+,,,valid date.,
+Full,510.0,Null or Invalid Volume,"Volume identifier is not recognised, this must be: B, P, C",Not Reprocessed
+Distributor,,Identifier,"or L... (B=Base, P=packs/bottles, C=Cases/boxes, L=Litres.",
+,,,Needs to relate correctly to the quantity sent in the,
+,,,adjacent column.  Resend record with correct Volume,
+,,,Identifier.,
+Full,510.0,Null Volume Identifier,Volume identifier is mandatory and was sent blank.,Not Reprocessed
+Distributor,,,Resend record with corrected/completed Volume,
+,,,Identifier,

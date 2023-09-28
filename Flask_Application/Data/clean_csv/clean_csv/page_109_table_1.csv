@@ -1,0 +1,27 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,505.0,Confirmation Does Not,The number of lines in the order must match the number,Not Reprocessed
+Distributor,,Match With The Order,of lines being reported in the confirmation  Resend total,
+,,,PO data with error corrected.,
+Full,505.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,505.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a,
+,,,corrected code.,
+Full,505.0,Not A Portal Customer,Customer Code used does not relate to a Portal,Not Reprocessed
+Distributor,,,Customer received via a 310 record  Resend record with,
+,,,correct Customer Code.,
+Full,505.0,Null or Invalid Date,Delivery Date cannot be blank  Resend record with valid,Not Reprocessed
+Distributor,,,"Delivery date. Date is in invalid format, should be -day,",
+,,,"month, year sequence... Date separators can be either '.'",
+,,,'-' or '/' format. .  Resend record with valid date.,
+Full,505.0,Null or Invalid Volume,"Volume identifier is blank or not recognised (must be B,",Not Reprocessed
+Distributor,,Identifier,"P, C, L, G, K or D). Resend record with correct Volume",
+,,,Identifier.,
+Full,505.0,PO is Already Confirmed,PO Confirmation (505 record) has already been received,Not Reprocessed
+Distributor,,,for this Order  (No action - notification only).,
+Full,505.0,PO Is Already Invoiced,PO Confirmation (505 record) is not applicable as the PO,Not Reprocessed
+Distributor,,,is already invoiced  (No action - notification only).,
+Full,505.0,PO No Cannot Be Null if,Customer PO No cannot be blank  Resend record with,Not Reprocessed
+Distributor,,it is an OEM Product,correct PO No.,

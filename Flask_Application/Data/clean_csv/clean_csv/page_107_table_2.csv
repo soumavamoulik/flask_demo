@@ -1,0 +1,9 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,400.0,COC Code cannot be,If the customer has been classified as a Ford customer in,Not Reprocessed
+Distributor,,NULL,"Europe, then a customer order code (COC) and customer",
+,,,account code (CAC) must be included in columns 7+8 of,
+,,,the 400 record.,
+Full,400.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,

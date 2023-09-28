@@ -1,0 +1,13 @@
+Full,320,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,320.0,Multiple Unique Code,"Same customer has been sent with different Unique IDs,",Not Reprocessed
+Distributor,,Attached With Same,resend record with corrected Unique Code,
+,,Customer,,
+Full,320.0,This Unique Code is,Same Unique Code has been sent with a different,Not Reprocessed
+Distributor,,Already Attached to,customer. Resend record with correct Unique ID.,
+,,Another Customer,,
+Full,320.0,Invalid Customer Code,The code field received did not match anything we have on,Reprocessed Daily - For
+Distributor,,,file and is likely not valid.  Please check the contents sent if,30 Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,

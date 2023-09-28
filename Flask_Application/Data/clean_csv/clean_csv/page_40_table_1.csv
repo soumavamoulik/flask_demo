@@ -1,0 +1,4 @@
+FIELD NAME,DEFINITIONS
+Ship Serial No.,"This is the shipping location or physical locations of a customer. 1 customer, may have multiple locations or of"
+,course just 1. These are loaded into the TurfView platform using 400 records. Typically customer segmentation is
+,managed at a shipping location level.

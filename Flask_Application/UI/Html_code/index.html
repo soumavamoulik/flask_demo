@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Answering System</title>
+    <!-- Link to your CSS file for styling (e.g., style.css) -->
+    <link rel="stylesheet" href="file:///C:/Users/ashutosh.somvanshi/Turfview_data_Analysis/Flask_Application/UI/Html_code/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Question Answering System</h1>
+        <form id="qa-form">
+            <label for="user-question">Enter your question:</label>
+            <input type="text" id="user-question" name="user_question" required>
+            <button type="submit">Get Answer</button>
+        </form>
+        <div id="answer-container">
+            <!-- Answer will be displayed here -->
+        </div>
+    </div>
+    <script>
+        // JavaScript code to handle form submission and API interaction
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('qa-form');
+            const answerContainer = document.getElementById('answer-container');
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const userQuestion = document.getElementById('user-question').value;
+
+                // Make an API request to your Flask backend
+                fetch('/api/answer', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ user_question: userQuestion }),
+                })
+                .then((response) => response.json())
+                .then((data) => {
+                    // Display the answer in the answerContainer
+                    answerContainer.innerHTML = `<p>Answer: ${data.answer}</p>`;
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

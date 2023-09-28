@@ -1,0 +1,4 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,100.0,Area Name is Null,"Sales area name came over blank, resend the record with",Not Reprocessed
+Distributor,,,this field populated.,

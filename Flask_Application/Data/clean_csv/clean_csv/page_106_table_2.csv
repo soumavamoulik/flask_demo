@@ -1,0 +1,10 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,320.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,320.0,Customer Email cannot,Resend record with correct/ populated Email ID.,Not Reprocessed
+Distributor,,be left blank,,
+Full,320.0,Employee Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,

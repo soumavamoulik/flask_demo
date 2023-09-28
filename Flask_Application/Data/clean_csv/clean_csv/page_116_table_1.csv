@@ -1,0 +1,27 @@
+Full,510,The Order is already,Invoice contains PO No that has already been fully,Not Reprocessed
+Distributor,,Invoiced,invoiced.  No action - notification only.,
+Full,510.0,Turnover Cannot Be Null,Gross Turnover is a mandatory field.  Resend record with,Not Reprocessed
+Distributor,,,correct Gross Turnover field populated.,
+Full,510.0,Volume Identifier Must,A UOM code of 'P' must be used for non-inventory,Not Reprocessed
+Distributor,,Be P For Non-Inventory,product  Resend record with a corrected volume identifier,
+,,Product,,
+Full,510.0,Volume Sold and,"If volume + turnover are zero, then the invoice record",Not Reprocessed
+Distributor,,Amount Sold Cannot,makes no sense.  Resend with +/- volume and potentially,
+,,Both Be Zero In Same,turnover.,
+,,Line,,
+Full,510.0,Volume Sold Cannot Be,Volume sold cannot be blank  Resend record with correct,Not Reprocessed
+Distributor,,Null,the quantity sold populated.,
+Full,510.0,Volume Sold Negative,Turnover cannot be positive if there is negative volume in,Not Reprocessed
+Distributor,,but Amount Sold Positive,Invoice  Resend record with Volume Sold positive or,
+,,,turnover negative as well.,
+Full,510.0,Volume Sold Negative,COGS cannot be positive if there is negative volume in,Not Reprocessed
+Distributor,,but COGS Positive,Invoice  Resend record with Volume Sold positive  or,
+,,,COGS negative. CoGs should be reflective of volume sold,
+,,,"(positive Vol = Positive CoGS and visa versa, zero GoGS =",
+,,,zero vol).,
+Full,510.0,Volume Sold Negative,Discount value and Volume must both be positive or,Not Reprocessed
+Distributor,,But Discount Positive,negative.  Resend record with Volume sold positive or,
+,,,Discount negative.,
+Full,510.0,Volume Sold Positive but,"If the volume is positive, then turnover must be zero or",Not Reprocessed
+Distributor,,Amount Sold Negative,greater than zero. (Not negative). The record must be,
+,,,resent with this correction.,

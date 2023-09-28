@@ -1,0 +1,27 @@
+Lite,510,Invoice Has Same,A unique invoice number (in Column 7) can only have multiple,Not Reprocessed
+Distributor,,Product in Multiple,record lines for same product sales if Column 16 (Line No) is,
+,,Lines but without Line,being used to differentiate the lines.  Resend Total invoice,
+,,Number,with error corrected.,
+Lite,510.0,Line No cannot Be Null,Invoice Line Number is a mandatory field if the invoice relates,Not Reprocessed
+Distributor,,or Negative,to a Ford customer. (This is Line No for the Invoice and not the,
+,,,Ref Invoice. Credit Ref is only required for credits) Resend,
+,,,Invoice line with Line Number.,
+Lite,510.0,Net Turnover Negative,Both Turnover values must be either positive or negative,Not Reprocessed
+Distributor,,But Gross Turnover,Resend invoice with correct Gross and Net Amounts.,
+,,Positive,,
+Lite,510.0,Null Invoice No.,Invoice No cannot be blank  Resend record with Invoice No,Not Reprocessed
+Distributor,,,,
+Lite,510.0,Null or Invalid Date,"Invoice date cannot be blank.Date is in invalid format,",Not Reprocessed
+Distributor,,,"should be -day, month, year sequence... Date separators can",
+,,,be either '.'  '-' or '/' format. .  Resend record with valid date.,
+Lite,510.0,Null or Invalid Volume,"Volume identifier is not recognised, this must be: B, P, C or L...",Not Reprocessed
+Distributor,,Identifier,"(B=Base, P=packs/bottles, C=Cases/boxes, L=Litres.  Needs to",
+,,,relate correctly to the quantity sent in the adjacent column.,
+,,,Resend record with correct Volume Identifier.,
+Lite,510.0,Null Volume Identifier,Volume identifier is mandatory and was sent blank.  Resend,Not Reprocessed
+Distributor,,,record with corrected/completed Volume Identifier,
+Lite,510.0,Order Date Cannot Be,Order Date is a mandatory field if the invoice relates to a Ford,Not Reprocessed
+Distributor,,NULL,customer.  Resend Invoice line with Order Date.,
+Lite,510.0,Other Records On The,Portal related. Related 510 records received for this Invoice,Not Reprocessed
+Distributor,,Same Invoice Have,No had errors which means that all lines in the Invoice are,
+,,Errors,,

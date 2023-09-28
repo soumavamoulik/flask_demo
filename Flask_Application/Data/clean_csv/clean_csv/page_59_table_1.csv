@@ -1,0 +1,11 @@
+Record Type,Record Name,Record ID,Notes
+Master,Employee Data,200.0,
+Master,Customer,300.0,
+Master,Customer Shipping Data,400.0,Only required for customers with multiple shipping locations and/or if
+,,,Distributor is defined as using Ship To Segmentation
+Master,Warehouse,700.0,
+Transaction,Invoice Data,510.0,
+Transaction,Delivery For Fee,520.0,If operating Delivery for Fee and/or deploying Distributor Replenishment
+,,,Model
+Transaction,Stock Data,800.0,
+Transaction,Pending Purchase Order,900.0,

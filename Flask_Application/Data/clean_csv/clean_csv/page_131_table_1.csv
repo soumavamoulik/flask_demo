@@ -1,0 +1,19 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Lite,310.0,Child Classification Code,"The child attribute code provided is valid, but doesnt",Not Reprocessed
+Distributor,,Is Not Under This Parent,match to the parent code provided.  Resend the file with,
+,,,correctly assigned parent and/or child attribute codes,
+,,,included.,
+Lite,310.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Lite,310.0,Invalid Customer Code,We have no 300 record which matches the customer code,Reprocessed Daily - For
+Distributor,,,"in this record, send a 300 record first then this will be",30 Days
+,,,"imported.  If the customer code in this record was invalid,",
+,,,then resend with a valid customer code.,
+Lite,310.0,Invalid Additional Child,The child attribute code in column 3 doesnt match what,Reprocessed - AdHoc
+Distributor,,Classification,has been set up in the master data in TurfView.  Either set,
+,,,"up the code, or resend this record with a correct code.",
+Lite,310.0,Invalid Additional Parent,The parent attribute code in column 4 doesnt match what,Reprocessed - AdHoc
+Distributor,,Classification,has been set up in the master data in TurfView.  Either set,
+,,,"up the code, or resend this record with a correct code.",

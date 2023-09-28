@@ -1,0 +1,33 @@
+Promotion Code  ,Please provide the Promotion Code that will be used to track the Promotion
+Promotion Name -,This field can be used to provide the Promotion a Name
+Parent Promotion,This field can be used to record the name of the Parent Promotion.
+Name -,There can be scenarios where one region/geography can have multiple promotions running at the same time for different
+,products. In such a scenario a Parent Promotion can be first created following the steps mentioned in the link here.
+,Then each of the promotions can be tagged as Child Promotions against the Parent Promotion.
+Promotion Type -,This field allows to select the type of the promotion or helps to identify what sort of Promotions are being carried out. The
+,options available are 
+,? Bundle Deal : Which means that multiple products can be clubbed to create a Bundle to provide at a clubbed price
+,? Fixed Price (Off Invoice) : This indicates the promotion that is enabled to promote a product based on fixed discount
+,? POS/GWP/Merchandise : This indicates those promotions where additional merchandise is given out with a product
+,to promote the purchase of the product
+,? Rebate/Retro : This indicates those promotions in which a certain Rebate is provided on purchase of a certain
+,quantity of the product to be promoted
+,? Prize Draw/Points Scheme/Other : This indicates those promotions in which certain lucky draw/reward points scheme
+,is introduced to promote the purchase of a product
+Activity Objective,This field indicates the overview of the objectives of driving this promotion 
+Overview,? Incremental Volume Uplift  the objective is to increase the quantity purchase of a particular or group of products
+,? Customer Acquisition  the objective is to attract more customers by offering discounts/rebates
+,? Product Upsell  the object is to upsell additional products with a primary product which is more covered in bundle
+,deals
+,? Range Sell-in  the objective is to sell larger portfolio of products
+,? Loyalty/Retention  the objective is to create a loyalty in the customers and in turn increase the customer retention
+,? Other  This opens another field Description (Other) where you can provide an objective of creating the promotion
+Activity Objective,"Please use this field to state the underlying purpose of running this promotion including measurable objectives, such as"
+,increase Edge Volume YOY 20% for the period of the promotion
+Promotional,Please state the specific mechanics of promotion in relation to the products being promoted and/or giveaways or discounts
+Mechanic,relating to the promotion
+Promotion/Activity,Provide the start date when the promotion starts
+Start Period -,
+Promotion/Activity,Provide the end date when the promotional activity will end
+End Period -,
+Currency,The currency in which the promotion is carried out

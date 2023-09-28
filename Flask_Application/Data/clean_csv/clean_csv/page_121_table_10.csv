@@ -1,0 +1,16 @@
+"TurfView BI  Master Guide V7.0Record -OR-  If erroneous, resend record with correctInvoice Code.Full515No Customer PO AgainstInvoice Payment Confirmation contains an Invoice thatReprocessed Daily - For 30DistributorThis Invoicedoes not have a PO number...  Resend record with correctDaysCustomer PO OR  Ask the Dealer to create order in thePortal and then send Order Confirmation and Invoice.10.5.11RECORD TYPE  520DistributorRecord TypeError MessageRemediation ActionError Processing StatusTypeFull520Customer Code is NullThe code field was left blank in the data we received, theNot ReprocessedDistributorrecord will need to be resent with the field populated tocorrect the error.Full520Invalid DistributorThe distributor code doesnt match the code we hold inNot ReprocessedDistributorTurfView.  The record needs to be resent with a correctedcode.Full520Product Code is NullThe code field was left blank in the data we received, theNot ReprocessedDistributorrecord will need to be resent with the field populated tocorrect the error.Full520Warehouse Code is NullThe code field was left blank in the data we received, theNot ReprocessedDistributorrecord will need to be resent with the field populated tocorrect the error.Full520Invalid Customer CodeThe code field received did not match anything we haveReprocessed Daily - For 30Distributoron file and is likely not valid.  Please check the contentsDays121",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+,,,,"Record -OR-  If erroneous, resend record with correct",,,,,,,,
+,,,,,Invoice Code.,,,,,,,
+"FullDistributor",515,"No Customer PO AgainstThis Invoice","Invoice Payment Confirmation contains an Invoice thatdoes not have a PO number...  Resend record with correctCustomer PO OR  Ask the Dealer to create order in thePortal and then send Order Confirmation and Invoice.","Reprocessed Daily - For 30Days",,,,,,,,
+,Distributo,,Record Type,Record Type,Error Message,Error Message,Remediation Action,Remediation Action,Error Processing Status,Error Processing Status,,
+,Type,,,,,,,,,,,
+"FullDistributor",Full,520,520,Customer Code is Null,Customer Code is Null,,"The code field was left blank in the data we received, the",,Not Reprocessed,Not Reprocessed,,
+,Distributo,record will need to be resent with the field populated to,,,,,,,,,,
+,,,,,,,correct the error.,,,,,
+"FullDistributor",520,Invalid Distributor,"The distributor code doesnt match the code we hold inTurfView.  The record needs to be resent with a correctedcode.",Not Reprocessed,,,,,,,,
+"FullDistributor",Full,520,520,Product Code is Null,Product Code is Null,,"The code field was left blank in the data we received, the",,Not Reprocessed,Not Reprocessed,,
+,Distributo,record will need to be resent with the field populated to,,,,,,,,,,
+,,,,,,,correct the error.,,,,,
+"FullDistributor",520,Warehouse Code is Null,"The code field was left blank in the data we received, therecord will need to be resent with the field populated tocorrect the error.",Not Reprocessed,,,,,,,,
+,Full,,520,520,Invalid Customer Code,Invalid Customer Code,,The code field received did not match anything we have,,,Reprocessed Daily - For 30,
+Distributo,on file and is likely not valid.  Please check the contents,Days,,,,,,,,,,

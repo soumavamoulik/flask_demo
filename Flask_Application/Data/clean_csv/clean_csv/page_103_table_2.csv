@@ -1,0 +1,11 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,300.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,300.0,Customer Name Is Null,"Resend the 300 record with the customer name populated,",Not Reprocessed
+Distributor,,,cannot be left blank.,
+Full,300.0,Invalid Character in Code,Only alpha/ numerical characters or the following special,Not Reprocessed
+Distributor,,,characters are permitted in the customer code field (# _ - /,
+,,,and .); resend the record without this/ substituted in the,
+,,,employee code field.,

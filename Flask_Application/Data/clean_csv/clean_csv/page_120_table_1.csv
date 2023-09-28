@@ -1,0 +1,23 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Full,515.0,Customer Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,515.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,515.0,Not A Portal Customer,Customer code is not recognised as a Portal Customer.,Not Reprocessed
+Distributor,,,Resend record with correct Customer.,
+Full,515.0,Null or Invalid Date,"Invoice date cannot be blank.Date is in invalid format,",Not Reprocessed
+Distributor,,,"should be -day, month, year sequence... Date separators",
+,,,can be either '.'  '-' or '/' format. .  Resend record with valid,
+,,,date.,
+Full,515.0,Null Payment Status,Payment Status cannot be blank...  Resend record with,Not Reprocessed
+Distributor,,,correct Payment status.,
+Full,515.0,Invalid Customer Code,The code field received did not match anything we have on,Reprocessed Daily - For 30
+Distributor,,,file and is likely not valid.  Please check the contents sent if,Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,
+Full,515.0,Invalid Invoice,"Invoice No is not recognised, either because it is",Reprocessed Daily - For 30
+Distributor,,,blank/erroneous or because the Distributor has not sent,Days
+,,,the related Invoice 510 record.  Send related 510 Invoice,

@@ -1,0 +1,10 @@
+Lite,400,Null or Invalid ZIPCODE,"Address ZIP Code is mandatory for USA, resend record",Not Reprocessed
+Distributor,,,with field populated.,
+Lite,400.0,Invalid Customer Code,Customer Code is not recognised or came over blank.,Reprocessed Daily - For 30
+Distributor,,,"Either resend the 400 record if the code sent is invalid,",Days
+,,,"if the customer code was valid, then send an",
+,,,accompanying 300 record.,
+Lite,400.0,Invalid Sales Area Code,Sales Area Code (if used) or Geography Level 3 Code is,Reprocessed Daily - For 30
+Distributor,,,not recognised.  Either resend this record with a valid,Days
+,,,"code, or BP admin load the sales area/ level 3 code into",
+,,,the geography master if the code sent is valid,

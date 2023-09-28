@@ -1,0 +1,29 @@
+Ship to Name,"This is the shipping location or physical locations of a customer. 1 customer, may have multiple locations or of"
+,course just 1. These are loaded into the TurfView platform using 400 records. Typically customer segmentation is
+,managed at a shipping location level.
+Sub Sector Detail (Ship To),"This is often referred to as ""SSD"", it relates to the most detailed level of the customer hierarchy, and is the level"
+,provided by distributors which TurfView uses to roll upwards to the tiered hierarchy levels above. In an IWS
+,"example, the levels run as follows: Channel= Auto, Market= Workshops, Sector= Independent Workshops, Sub"
+,"Sector= Car Independent Workshops, Sub Sector Detail= Own branded car independent Workshop. Customers can"
+,be classified at a 'sell to' (overall customer level) or 'ship to' (end customer shipping location). The customer level
+,which defines the end classification is set up within the distributor master.
+Sales Area,"Geography hierarchy refers to the geographic reporting levels, such as you would typically find in a postal address."
+,The standard hierarchy has only 3 levels. There is an optional 4th level (Geography Level 4). This a more detailed
+,"lower level than the standard level 3. These are created by the BP administrator, then applied at a distributor level"
+,using a 100 record.
+Address 1,Address Line of the Customer
+Address 2,Address Line of the Customer
+Zip Code -,Zip Code of the Customer
+Customer Account Code,"Every Ford dealer location has a Ford ship to and sold to code (assigned by Ford), the CAC= Customer Account"
+(Ford),Code relates to the sold to code for a Ford site. These are only used in Europe at this time for reporting Ford sales
+,to Ford in order to manage Ford dealer commission payments.
+Customer Order Code (Ford),"Every Ford dealer location has a Ford ship to and sold to code (assigned by Ford), the COC= Customer Ordering"
+,Code relates to the ship to code for a Ford site. These are only used in Europe at this time for reporting Ford sales
+,to Ford in order to manage Ford dealer commission payments.
+Email,Email of the Customer
+Mobile No,Customers Mobile Number
+VAT No,Customers VAT No
+DFF Customer (Y/N),DFF = Delivery for fee: This is where distributors make deliveries to the customers of BP/ Castrol on behalf of
+,BP/Castrol. Distributors inform us (via TurfView 520 records) what has been delivered so BP/Castrol can invoice
+,the customer... The volume relates to the quantity the distributor delivered and BP/Castrol will therefore invoice
+,the end customer.

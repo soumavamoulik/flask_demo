@@ -1,0 +1,26 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Lite,510.0,COGS Cannot Be Null,The COGS field cannot be blank  Resend record with,Not Reprocessed
+Distributor,,,completed/ correct COGS.,
+Lite,510.0,Creation Date Is,The same invoice already exists with a different Creation Date.,Not Reprocessed
+Distributor,,Different In Already,Resend record with correct Creation Date.,
+,,Existing Invoice No.,,
+Lite,510.0,Customer Is Different,"This invoice number is already in system, but against a",Not Reprocessed
+Distributor,,In Already Existing,different customer.  Resend the invoice with error corrected,
+,,Invoice No.,(invoice number amended).,
+Lite,510.0,Delivery Date Cannot,Delivery Note Date is a mandatory field if the invoice relates,Not Reprocessed
+Distributor,,Be NULL,to a Ford customer.  Resend Invoice line with Delivery Date.  If,
+,,,"this cannot be added, use invoice date as back-up option.",
+Lite,510.0,Discount Must Be 0,Scheme code is used for FOC product only (therefore zero,Not Reprocessed
+Distributor,,For Scheme,"turnover), there is no way to deduct discount off of zero,",
+,,,therefore either resend the record without the scheme code,
+,,,"(with discount populated, and turnover greater than zero) if",
+,,,discounted -OR- send the record with zero turnover and,
+,,,scheme code populated and leave discount column blank if,
+,,,FOC.,
+Lite,510.0,Duplicate Invoice,Duplicate Invoice Number Exists Against The Order... Resend,Not Reprocessed
+Distributor,,Number Exists Against,record with correct data.,
+,,The Order.,,
+Lite,510.0,Duplicate Line No In,Two or more records within same Customer Invoice No are,Not Reprocessed
+Distributor,,Same Invoice.,using the same invoice line number.  Resend Total invoice,
+,,,with duplicate line error corrected.,

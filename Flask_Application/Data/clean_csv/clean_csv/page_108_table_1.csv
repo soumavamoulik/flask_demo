@@ -1,0 +1,22 @@
+Full,400,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Full,400.0,Null or Invalid Address1,"Address Line 1 is mandatory for USA, resend record with",Not Reprocessed
+Distributor,,,field populated.,
+Full,400.0,Null or Invalid Ship To,"Ship To Address Serial No is Blank, resend 400 record with",Not Reprocessed
+Distributor,,Address Serial No.,correct Address Serial No filled in.,
+Full,400.0,Null or Invalid Sub Sector,"Sub Sector Detail field is blank or unrecognised, resend",Not Reprocessed
+Distributor,,Detail Code,record with correct Sub Sector Detail Code.,
+Full,400.0,Null or Invalid ZIPCODE,"Address ZIP Code is mandatory for USA, resend record with",Not Reprocessed
+Distributor,,,field populated.,
+Full,400.0,Sales Area Code is Null,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,,record will need to be resent with the field populated to,
+,,,correct the error.,
+Full,400.0,Invalid Customer Code,The code field received did not match anything we have on,Reprocessed Daily - For
+Distributor,,,file and is likely not valid.  Please check the contents sent if,30 Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,
+Full,400.0,Invalid Sales Area Code,The code field received did not match anything we have on,Reprocessed Daily - For
+Distributor,,,file and is likely not valid.  Please check the contents sent if,30 Days
+,,,"this is not valid.  If it is valid, then the data will need to be",
+,,,updated by the local BP admin.,

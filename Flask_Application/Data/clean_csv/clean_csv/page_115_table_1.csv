@@ -1,0 +1,27 @@
+Full,510,Order Date Cannot Be,Order Date is a mandatory field if the invoice relates to a,Not Reprocessed
+Distributor,,NULL,Ford customer.  Resend Invoice line with Order Date.,
+Full,510.0,Other Records On The,Portal related. Related 510 records received for this,Not Reprocessed
+Distributor,,Same Invoice Have,Invoice No had errors which means that all lines in the,
+,,Errors,Invoice are rejected. Portal requires an invoice to be,
+,,,processed in full.  Resend Total invoice with error,
+,,,corrected.,
+Full,510.0,PO Has Not Been,Credit Notes cannot be applied if the order is still pending,Not Reprocessed
+Distributor,,Invoiced So Credit Note,invoicing.  Resend record with correct PO number.,
+,,Cannot Be Received,,
+Full,510.0,PO No Cannot Be Null if,Portal OEMs only: PO Number is a mandatory field if it,Not Reprocessed
+Distributor,,it is an OEM Product sold,relates to a Portal order.  Resend record with PO Number.,
+,,to an OEM Customer,,
+Full,510.0,Product Code is Null,The Mandatory Product code field was not populated,Not Reprocessed
+Distributor,,,Resend invoice with populated BP product code.,
+Full,510.0,Product Does Not Exist In,Invoice contains Products that are not in the related PO,Not Reprocessed
+Distributor,,PO,Resend record with correct Product.,
+Full,510.0,Quantity Should Be In,Quantity Confirmed must be a multiple of Case Factor,Not Reprocessed
+Distributor,,Multiple Of Case,Resend record with correct quantity confirmed.,
+Full,510.0,Same Invoice Against,All lines of an invoice must have the same creation date,Not Reprocessed
+Distributor,,Different Creation Date.,Resend record with error corrected.,
+Full,510.0,Same Invoice Against,This invoice is contained within the same import file but,Not Reprocessed
+Distributor,,Different Customer.,the invoice number is against 2 different customers....,
+,,,Resend entire invoice with error corrected (assigning a,
+,,,different number to one of the customers).,
+Full,510.0,The Invoice exists against,Invoice No has already been received against a different,Not Reprocessed
+Distributor,,a different Order,PO Number.  Resend record with correct PO No.,

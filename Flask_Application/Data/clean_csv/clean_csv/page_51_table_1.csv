@@ -1,0 +1,9 @@
+Field Name,Description
+Product Code,Essential as it is the unique reference for TurfView to map products received in Distributor transaction files
+Base UOM,This is the base unit of measure for the product e.g. Litres or Kilogram
+Pack Factor,How many Base UoM (e.g. Litres) are in a single Pack / Selling Unit e.g. if it is a 5 litre bottle and Base UoM is
+,"Litres, then Pack Factor would be 5. If there is no Pack e.g. bulk, then this is defaulted to 1 to indicate that"
+,Pack and Base UoM are identical.
+Case Factor,How many Packs are in a single Case e.g. a 12x1 case/carton would be 12. Where Cases are not applicable
+,"(e.g. drums or bulk), then this is defaulted to 1 to means that Pack and Case are identical."
+Pack Net Volume (Ltrs),This is the Net Volume in Litres related to 1 Pack

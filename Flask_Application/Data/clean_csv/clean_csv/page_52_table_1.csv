@@ -1,0 +1,15 @@
+Product Code,"This must be the BP SKU code, not the Distributor SKU code. This is essential for TurfView to be able to"
+,"recognise the code and to look up the associated values for this product such as description, units of"
+,"measure, product family."
+Volume (or Volume Sold),This is the absolute quantity and is connected to the Volume Identifier below
+Volume Identifier,This is the indicator which tells TurfView how to translate the Volume into a real value for the specific
+,"Product. There are 7 options which are B, P, C, G, K, D or L. No other character will be accepted in this field."
+,See descriptions / examples below.
+,B = Base UoM. This relates to what is defined in the TurfView Product Master as the base unit for this
+,"product e.g. Litre, Kilogram. Please consult with your BP Cluster Administrator on specifics."
+,P = Pack. This is a single selling unit of the product e.g. a bottle.
+,C = Case. This is the normal BP sales grouping of packs.
+,L = Litres.
+,G = US Gallon
+,K = Pounds (Lbs)
+,D = Kilo (used outside US to measure sales of bulk grease products).

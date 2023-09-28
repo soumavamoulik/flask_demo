@@ -1,0 +1,9 @@
+Full,315,Customer Additional,"The code field was left blank in the data we received, the",Not Reprocessed
+Distributor,,Parent Classification,record will need to be resent with the field populated to,
+,,Code is Null,correct the error.,
+Full,315.0,Customer Additional,Resend record with the classification name populated.,Not Reprocessed
+Distributor,,Parent Classification,,
+,,Name is Null,,
+Full,315.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,

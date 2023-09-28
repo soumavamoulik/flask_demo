@@ -1,0 +1,23 @@
+Distributor,Record Type,Error Message,Remediation Action,Error Processing Status
+Type,,,,
+Lite,300.0,Customer Name Is Null,"Resend the 300 record with the customer name populated,",Not Reprocessed
+Distributor,,,cannot be left blank.,
+Lite,300.0,Invalid Character in Code,Only alpha/ numerical characters or the following special,Not Reprocessed
+Distributor,,,characters are permitted in the customer code field (# _ - /,
+,,,and .); resend the record without this/ substituted in the,
+,,,employee code field.,
+Lite,300.0,Invalid Customer Code,"Customer Code is blank, resend the record with correct",Not Reprocessed
+Distributor,,,Customer Code.,
+Lite,300.0,Invalid Distributor,The distributor code doesnt match the code we hold in,Not Reprocessed
+Distributor,,,TurfView.  The record needs to be resent with a corrected,
+,,,code.,
+Lite,300.0,Null or Invalid Address1,"Address Line 1 is mandatory for USA, resend record with",Not Reprocessed
+Distributor,,,this populated.,
+Lite,300.0,Null or Invalid Sub Sector,"Sub Sector Detail field is blank or unrecognised, resend",Not Reprocessed
+Distributor,,Detail Code,record with correct Sub Sector Detail Code.,
+Lite,300.0,Null or Invalid ZIPCODE,"Zip code is mandatory for USA, resend record with this",Not Reprocessed
+Distributor,,,populated.,
+Lite,300.0,Invalid Sales Area Code,Sales Area Code (if used) or Geography Level 3 Code is not,Reprocessed Daily - For
+Distributor,,,"recognised, if code is invalid then the record needs to be",30 Days
+,,,resent with a corrected code.  If not then the BP admin,
+,,,may add this to the geography master to fix the error.,

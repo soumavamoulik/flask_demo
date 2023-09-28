@@ -1,0 +1,17 @@
+FIELD NAME,DEFINITIONS
+Market -,Provide the name of the Market for which the Non-Inventory Product is to be created
+Code -,Provide the code for the Non-Inventory Product
+Name -,Provide the name of the Non-Inventory Product
+Pack Net Weight (Kg),Provide the Pack Net Weight of the non-inventory product in Kg
+Base UOM,"When a distributor sends an invoiced sales quantity into TurfView, they need to define what the quantity they are sending"
+,"relates to. They do this by sending one of four 'UOM' or ""Unit Of Measure"" codes ('B'= Base,'C'= Case,'P'= Pack,or 'L'= Litres)."
+,"For example, if the distributor sends a sale for a product which is sold in cases/boxes of 4 x 4 litre bottles (4x4L) and they"
+,"have told us they sold a quantity of ""16""; we need to know if the quantity indicated in the invoice line relates to: 16x ""C""/"
+,"Cases = 256L, 16x ""P""/ packs = 64L or 16 ""L""/ Litres (16L). The Base UOM is used when the distributor wants to define their"
+,UOM always align to how BP define the default UOM for that product (rather than them defining each time based on how
+,"they invoice), therefore based on how it would have been invoiced to them by BP... In the example of the 4x4L products"
+,"these are typically invoiced by BP to its customers in cases, whereas bulk product is typically sold in Litres."
+Pack UOM,The Pack UOM is used when the distributor wants to define their UOM always align to how BP define the default UOM for
+,that product
+Pack Factor,"Pack Factor relates to the number of 'Inners' within a pack of product,"
+Remarks,Provide additional remarks if any.

@@ -1,0 +1,9 @@
+Market,Select the Market for which the Geography Level 3 is created.
+Geography Level 1 Code,Select from available Geography Level 1 options in the dropdown.
+,"Geography hierarchy refers to the geographic reporting levels, such as you would typically find in a postal"
+,address. For example geography level 3 (which is the most detailed in the standard hierarchy) might relate to
+,"the area within a town, or town itself. Geography level 2 is the mid-level detail, which would relate to a"
+,"region, county or province of a country. The level 1 always relates to country."
+Geography Level 2,Enter the Geography Level 2
+,"Geography hierarchy refers to the geographic reporting levels, such as you would typically find in a postal"
+,address. For example geography level 3 (which is the most detailed in the standard hierarchy) might relate to
